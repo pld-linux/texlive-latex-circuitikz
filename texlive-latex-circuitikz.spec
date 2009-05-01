@@ -3,6 +3,7 @@
 
 Summary:	CircuiTikz is a set of LaTeX macros designed to make it easy to draw electrical networks in scientific publications
 Summary(hu.UTF-8):	A CircuiTikz LaTeX makrók gyűjteménye, amelyek elektromos hálózatok könnyű rajzolására készült.
+Summary(pl.UTF-8):	Zestaw makr LaTeXa do rysowania schematów sieci elektrycznych
 Name:		texlive-latex-%{short_name}
 Version:	0.2
 Release:	1
@@ -26,6 +27,10 @@ electrical networks in scientific publications.
 %description -l hu.UTF-8
 A CircuiTikz Latex makrók gyűjteménye, amelyek elektromos hálózatok
 könnyű rajzolására készült.
+
+%description -l pl.UTF-8
+CircuiTikz jest zbiorem makr LaTeXa mającym ułatwić rysowanie shematów
+sieci elektrycznych w publikacjach naukowych.
 
 %prep
 %setup -q -c
