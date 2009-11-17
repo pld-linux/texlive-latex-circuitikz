@@ -12,10 +12,10 @@ Group:		Applications/Publishing/TeX
 URL:		http://home.dei.polimi.it/mredaelli/circuitikz/index.html
 Source0:	http://home.dei.polimi.it/mredaelli/downloads/circuitikz.zip
 # Source0-md5:	45f4bf3eb88812f1dfacaed0c92f9d8b
+BuildRequires:	unzip
 Requires(post,postun):	/usr/bin/texhash
 Requires:	texlive-latex
 Requires:	texlive-latex-pgf
-Requires:	unzip
 Obsoletes:	tetex-latex-%{short_name}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
